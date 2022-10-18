@@ -1,0 +1,23 @@
+.intro {
+  @apply text-center 
+    font-anonymous-pro
+    mt-6 
+    bg-white 
+    bg-opacity-30 
+    py-5 px-2 
+    rounded-md 
+    text-base 
+    md:text-lg;
+}
+
+.about {
+  @apply flex justify-between items-center mt-6;
+}
+
+.about_text {
+  @apply font-anonymous-pro;
+}
+
+.about_img {
+  @apply rounded-md border-solid border-2 border-white object-cover h-52;
+}

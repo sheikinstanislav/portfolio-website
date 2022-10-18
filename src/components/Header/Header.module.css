@@ -1,0 +1,66 @@
+.header {
+  @apply flex
+    sticky
+    top-0 
+    items-center 
+    p-5 
+    max-w-4xl
+    mx-auto 
+    font-anonymous-pro;
+}
+
+.header_wrapper {
+  @apply bg-white;
+}
+
+.logo {
+  @apply flex items-center mr-10;
+}
+
+.logo_img {
+  @apply hover:animate-spin;
+}
+
+.logo_text {
+  @apply text-xl font-bold ml-2;
+}
+
+.header_nav {
+  @apply flex justify-end w-full md:justify-between;
+}
+
+.header_menu {
+  @apply hidden md:flex items-center gap-5;
+}
+
+.header_link_item {
+  @apply text-lg flex items-center;
+}
+
+.header_link {
+  @apply hover:underline underline-offset-4;
+}
+
+.mobile_nav {
+  @apply flex relative md:hidden;
+}
+
+.mobile_menu {
+  @apply absolute w-52 flex flex-col justify-between bg-slate-700 rounded-md translate-y-full -translate-x-full bottom-0;
+}
+.mobile_link {
+  @apply text-xl font-anonymous-pro py-2 px-4 rounded-md cursor-pointer hover:bg-slate-500;
+}
+
+.modeButton {
+  @apply flex
+  justify-center 
+  items-center
+  rounded-md p-1 w-12 h-12 duration-300 ease-in-out  bg-orange-300 !important;
+}
+.modeButtonDark {
+  @apply flex
+  justify-center 
+  items-center 
+  rounded-md p-1 w-12 h-12 duration-300 ease-in-out bg-indigo-700 !important;
+}

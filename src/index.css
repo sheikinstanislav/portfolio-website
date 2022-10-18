@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#F0E7DB] dark:bg-[#282a36] dark:text-white;
+}
+
+.page {
+  @apply max-w-3xl mx-auto container px-4;
+}
